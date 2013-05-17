@@ -1,0 +1,12 @@
+Source: ros-groovy-ros-web-video
+Section: misc
+Priority: extra
+Maintainer: Julius Kammerl <jkammerl@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), libbz2-dev, ros-groovy-catkin, ros-groovy-image-transport, ros-groovy-mk, ros-groovy-roscpp, ros-groovy-rostime, ros-groovy-sensor-msgs, yasm, zlib1g-dev
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ros-web-video
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libbz2-dev, ros-groovy-image-transport, ros-groovy-mk, ros-groovy-roscpp, ros-groovy-rostime, ros-groovy-sensor-msgs, zlib1g-dev
+Description: This package encodes ROS image topics via ffmpeg and provides a video stream via http
